@@ -8,7 +8,7 @@ const ROWS_HEIGHT: { [id: number]: number } = { 1: 400, 3: 355, 4: 350 };
 })
 export class HomeComponent implements OnInit {
 
-  cols: number = 3;
+  cols: number = 1;
   rowHeight = ROWS_HEIGHT[this.cols];
   category !: string;
 
