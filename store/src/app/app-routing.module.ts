@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CartComponent } from './components/pages/cart/cart.component';
 import { HomeComponent } from './components/pages/home/home.component';
 
 const routes: Routes = [{
@@ -7,6 +8,11 @@ const routes: Routes = [{
   component: HomeComponent
 },
 {
+  path: 'cart',
+  component: CartComponent
+}
+{
+  //this is for defualt page
   path: '', redirectTo: 'home', pathMatch: 'full'
 }
 ];

@@ -41,3 +41,4 @@ store/testem.log
 store/.DS_Store
 store/Thumbs.db
 store/.browserslistrc
+node_modules/
