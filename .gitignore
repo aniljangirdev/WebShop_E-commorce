@@ -1,23 +1,43 @@
-# Compiled class file
-*.class
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Log file
-*.log
+# Compiled output
+/store/dist
+/store/tmp
+/store/out-tsc
+/store/bazel-out
 
-# BlueJ files
-*.ctxt
+# Node
+/store/node_modules/*
+store/npm-debug.log
+store/yarn-error.log
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Visual Studio Code
+store/.vscode/*
+store/!.vscode/settings.json
+store/!.vscode/tasks.json
+store/!.vscode/launch.json
+store/!.vscode/extensions.json
+store/.history/*
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Miscellaneous
+/store/.angular/cache
+store/.sass-cache/
+/store/connect.lock
+/store/coverage
+/store/libpeerconnection.log
+store/testem.log
+/store/typings
+
+# System files
+store/.DS_Store
+store/Thumbs.db
+store/.browserslistrc
